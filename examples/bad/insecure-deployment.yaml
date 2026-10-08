@@ -1,0 +1,38 @@
+# INTENTIONALLY BAD: demonstrates critical findings.
+# - image uses :latest
+# - privileged container
+# - explicitly runs as root (runAsUser: 0)
+# - no resources, no probes, no replicas, no recommended labels
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  labels:
+    app: api
+spec:
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+        - name: api
+          image: mycompany/api:latest
+          securityContext:
+            privileged: true
+            runAsUser: 0
+        - name: sidecar
+          image: busybox   # implicit :latest
+          command: ["sh", "-c", "sleep infinity"]
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: api
+spec:
+  ports:
+    - port: 80
+      targetPort: 8080

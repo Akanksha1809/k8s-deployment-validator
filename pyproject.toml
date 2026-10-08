@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "k8s-deployment-validator"
+version = "1.0.0"
+description = "Static validation of Kubernetes workload manifests against production best practices."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = ["PyYAML>=6.0.1,<7"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9"]
+
+[project.scripts]
+k8s-validator = "k8s_validator.cli:main"
+
+[tool.setuptools]
+packages = ["k8s_validator"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,30 @@
+# INTENTIONALLY BAD: pinned image but missing operational settings.
+# - partial resources (no limits)
+# - only a liveness probe
+# - no replicas, incomplete labels, non-root not enforced
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis
+  labels:
+    app.kubernetes.io/name: redis
+spec:
+  serviceName: redis
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: redis
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: redis
+    spec:
+      containers:
+        - name: redis
+          image: redis:7.4.0
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+          livenessProbe:
+            tcpSocket:
+              port: 6379

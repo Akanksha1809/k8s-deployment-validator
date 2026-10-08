@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: log-agent
+  namespace: observability
+  labels:
+    app.kubernetes.io/name: log-agent
+    app.kubernetes.io/instance: log-agent-prod
+    app.kubernetes.io/version: "3.1.8"
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: log-agent
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: log-agent
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+      containers:
+        - name: fluent-bit
+          image: fluent/fluent-bit:3.1.8
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+          readinessProbe:
+            httpGet:
+              path: /api/v1/health
+              port: 2020
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 2020

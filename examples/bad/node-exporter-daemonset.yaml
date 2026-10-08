@@ -1,0 +1,42 @@
+# INTENTIONALLY BAD: root at pod level and an untagged init container.
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: node-exporter
+  labels:
+    app.kubernetes.io/name: node-exporter
+    app.kubernetes.io/instance: node-exporter
+    app.kubernetes.io/version: "1.8.2"
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: node-exporter
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: node-exporter
+    spec:
+      securityContext:
+        runAsUser: 0
+      initContainers:
+        - name: setup
+          image: alpine
+          command: ["sh", "-c", "echo init"]
+      containers:
+        - name: node-exporter
+          image: prom/node-exporter:v1.8.2
+          resources:
+            requests:
+              cpu: 50m
+              memory: 32Mi
+            limits:
+              cpu: 100m
+              memory: 64Mi
+          readinessProbe:
+            httpGet:
+              path: /metrics
+              port: 9100
+          livenessProbe:
+            httpGet:
+              path: /metrics
+              port: 9100
