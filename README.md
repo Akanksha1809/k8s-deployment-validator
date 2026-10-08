@@ -21,6 +21,7 @@ A small, dependency-light CLI that statically validates Kubernetes manifests aga
 | `run-as-root`      | Deployment, StatefulSet, DaemonSet | WARNING      | Non-root not enforced: neither `runAsNonRoot: true` nor a `runAsUser` is set, so the image's default user (often root) is used. |
 | `resources`        | Deployment, StatefulSet, DaemonSet | WARNING      | Any of `requests.cpu`, `requests.memory`, `limits.cpu`, `limits.memory` is missing. |
 | `probes`           | Deployment, StatefulSet, DaemonSet | WARNING      | Missing `readinessProbe` and/or `livenessProbe`. |
+| `writable-volume`  | Deployment, StatefulSet, DaemonSet | WARNING      | `readOnlyRootFilesystem: true` but no writable volume is mounted, so apps that write temp files (e.g. nginx) crash at startup. Includes init containers. |
 | `replicas`         | Deployment, StatefulSet            | WARNING      | `spec.replicas` not set (defaults to 1). |
 | `labels`           | All supported kinds                | WARNING      | Missing any of the [recommended labels](https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/): `app.kubernetes.io/name`, `app.kubernetes.io/instance`, `app.kubernetes.io/version`. |
 | `service-selector` | Service                            | WARNING      | Service (other than `ExternalName`) has no selector. |

@@ -137,6 +137,21 @@ def check_probes(resource: Resource) -> Iterator[Finding]:
             )
 
 
+def check_writable_volume(resource: Resource) -> Iterator[Finding]:
+    for c in containers(resource, include_init=True):
+        if (c.get("securityContext") or {}).get("readOnlyRootFilesystem") is not True:
+            continue
+        mounts = [m for m in c.get("volumeMounts") or [] if isinstance(m, dict)]
+        if not any(m.get("readOnly") is not True for m in mounts):
+            yield Finding(
+                rule="writable-volume",
+                severity=Severity.WARNING,
+                message="readOnlyRootFilesystem is set but no writable volume is mounted (e.g. an emptyDir at /tmp)",
+                resource=resource,
+                container=c.get("name"),
+            )
+
+
 def check_replicas(resource: Resource) -> Iterator[Finding]:
     if "replicas" not in (resource.body.get("spec") or {}):
         yield Finding(
@@ -176,6 +191,7 @@ CHECKS: list[tuple[frozenset[str], Check]] = [
     (WORKLOAD_KINDS, check_privileged),
     (WORKLOAD_KINDS, check_run_as_root),
     (WORKLOAD_KINDS, check_probes),
+    (WORKLOAD_KINDS, check_writable_volume),
     (REPLICATED_KINDS, check_replicas),
     (ALL_KINDS, check_labels),
     (frozenset({"Service"}), check_service_selector),

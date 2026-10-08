@@ -91,6 +91,27 @@ def test_missing_probe_is_warning(make_resource, probe):
     assert probe in finding.message
 
 
+@pytest.mark.parametrize(
+    ("mounts", "expected"),
+    [
+        (None, [("writable-volume", Severity.WARNING)]),
+        ([{"name": "cfg", "mountPath": "/etc/app", "readOnly": True}], [("writable-volume", Severity.WARNING)]),
+        ([{"name": "tmp", "mountPath": "/tmp"}], []),
+    ],
+)
+def test_read_only_root_needs_writable_volume(make_resource, mounts, expected):
+    def mutate(b):
+        container(b)["securityContext"] = {"readOnlyRootFilesystem": True}
+        if mounts is not None:
+            container(b)["volumeMounts"] = mounts
+
+    assert rules(checks.check_writable_volume(make_resource(mutate))) == expected
+
+
+def test_writable_root_needs_no_volume(make_resource):
+    assert list(checks.check_writable_volume(make_resource())) == []
+
+
 def test_missing_replicas_is_warning(make_resource):
     res = make_resource(lambda b: b["spec"].pop("replicas"))
     assert rules(checks.check_replicas(res)) == [("replicas", Severity.WARNING)]
