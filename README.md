@@ -281,7 +281,7 @@ Some rules need more than a key lookup to be accurate:
 
 ### 3. Reporting: `reporter.py`
 
-- **`TextReporter`** groups findings by resource and prints one status line per resource: `PASS` (green), `WARN` (yellow, warnings only) or `FAIL` (red, at least one critical). Findings follow, critical first, then alphabetically by rule, each tagged with its container where relevant. A summary line closes the report.
+- **`TextReporter`** groups findings by the exact resource they belong to (so same-named resources in different namespaces never merge) and prints one status line per resource: `PASS` (green), `WARN` (yellow, warnings only) or `FAIL` (red, at least one critical). Findings follow, critical first, then alphabetically by rule, each tagged with its container where relevant. A summary line closes the report.
 - **`JsonReporter`** prints a `summary` object and a flat `findings` array, which is easy to filter with `jq` or ingest elsewhere.
 
 ### 4. Exit-code policy: `cli.py`
@@ -341,13 +341,13 @@ k8s-deployment-validator/
 pytest -v
 ```
 
-The suite has **39 tests**:
+The suite has **40 tests**:
 
 | File | Tests | Covers |
 |---|---|---|
 | `test_checks.py` | 29 | Every rule, both when it should fire and when it should not; image reference parsing (untagged, `latest`, registry ports, digests); init-container coverage; container-over-pod security-context precedence; writable-volume detection; kind scoping (no `replicas` check for DaemonSets, no selector check for `ExternalName` Services) |
 | `test_loader.py` | 5 | Multi-document files, unsupported kinds skipped, `kind: List` flattening, recursive discovery that ignores non-YAML files, invalid YAML and missing paths |
-| `test_cli.py` | 5 | End-to-end runs: `examples/good` passes with `--strict`, `examples/bad` exits `1` and reports image-tag, privileged, run-as-root, resources, probes, replicas, labels and writable-volume findings, warnings-only input exits `0` (or `1` with `--strict`), JSON structure, exit code `2` for a missing path |
+| `test_cli.py` | 6 | End-to-end runs: `examples/good` passes with `--strict`, `examples/bad` exits `1` and reports image-tag, privileged, run-as-root, resources, probes, replicas, labels and writable-volume findings, warnings-only input exits `0` (or `1` with `--strict`), same-named resources in different namespaces reported separately, JSON structure, exit code `2` for a missing path |
 
 Rule tests start from one fully compliant Deployment fixture and change a single field, so each test isolates exactly one behaviour.
 

@@ -35,13 +35,14 @@ class TextReporter:
         return f"{_COLORS[key]}{text}{_COLORS['reset']}" if self.color else text
 
     def report(self, resources: list[Resource], findings: list[Finding]) -> None:
-        by_resource: dict[tuple[str, str], list[Finding]] = defaultdict(list)
+        # Group by object identity: findings hold the exact Resource they came from, so
+        # same-named resources (e.g. in different namespaces) are never merged.
+        by_resource: dict[int, list[Finding]] = defaultdict(list)
         for f in findings:
-            by_resource[(str(f.resource.source), f.resource.ref)].append(f)
+            by_resource[id(f.resource)].append(f)
 
         for resource in resources:
-            key = (str(resource.source), resource.ref)
-            items = by_resource.get(key, [])
+            items = by_resource.get(id(resource), [])
             status = self._c("ok", "PASS") if not items else self._c(_worst(items), "FAIL" if _has_critical(items) else "WARN")
             self.stream.write(f"{status}  {self._c('bold', resource.ref)}  {self._c('dim', str(resource.source))}\n")
             for f in sorted(items, key=lambda x: (x.severity != Severity.CRITICAL, x.rule)):

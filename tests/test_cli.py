@@ -24,6 +24,28 @@ def test_warnings_only_exit_zero_unless_strict(tmp_path):
     assert main([str(manifest), "--no-color", "--strict"]) == EXIT_FAILED
 
 
+def test_same_name_in_different_namespaces_reported_separately(tmp_path, capsys):
+    manifest = tmp_path / "svcs.yaml"
+    manifest.write_text(
+        """
+apiVersion: v1
+kind: Service
+metadata: {name: web, namespace: a}
+spec: {selector: {app: web}}
+---
+apiVersion: v1
+kind: Service
+metadata: {name: web, namespace: b}
+spec: {}
+"""
+    )
+    main([str(manifest), "--no-color"])
+    out = capsys.readouterr().out
+    assert out.count("WARNING  labels ") == 2
+    assert out.count("WARNING  service-selector ") == 1
+    assert "Scanned 2 resource(s): 0 critical, 3 warning(s)" in out
+
+
 def test_json_output(examples_dir, capsys):
     main([str(examples_dir / "bad"), "-o", "json"])
     payload = json.loads(capsys.readouterr().out)
