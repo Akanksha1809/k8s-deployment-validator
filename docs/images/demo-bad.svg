@@ -1,4 +1,4 @@
-<svg class="rich-terminal" viewBox="0 0 1751 806.4" xmlns="http://www.w3.org/2000/svg">
+<svg class="rich-terminal" viewBox="0 0 1751 855.1999999999999" xmlns="http://www.w3.org/2000/svg">
     <!-- Generated with Rich https://www.textualize.io -->
     <style>
 
@@ -19,164 +19,172 @@
         font-weight: 700;
     }
 
-    .terminal-2002999867-matrix {
+    .terminal-2186806534-matrix {
         font-family: Fira Code, monospace;
         font-size: 20px;
         line-height: 24.4px;
         font-variant-east-asian: full-width;
     }
 
-    .terminal-2002999867-title {
+    .terminal-2186806534-title {
         font-size: 18px;
         font-weight: bold;
         font-family: arial;
     }
 
-    .terminal-2002999867-r1 { fill: #98a84b;font-weight: bold }
-.terminal-2002999867-r2 { fill: #c5c8c6 }
-.terminal-2002999867-r3 { fill: #d0b344 }
-.terminal-2002999867-r4 { fill: #c5c8c6;font-weight: bold }
-.terminal-2002999867-r5 { fill: #868887 }
-.terminal-2002999867-r6 { fill: #cc555a;font-weight: bold }
+    .terminal-2186806534-r1 { fill: #98a84b;font-weight: bold }
+.terminal-2186806534-r2 { fill: #c5c8c6 }
+.terminal-2186806534-r3 { fill: #d0b344 }
+.terminal-2186806534-r4 { fill: #c5c8c6;font-weight: bold }
+.terminal-2186806534-r5 { fill: #868887 }
+.terminal-2186806534-r6 { fill: #cc555a;font-weight: bold }
     </style>
 
     <defs>
-    <clipPath id="terminal-2002999867-clip-terminal">
-      <rect x="0" y="0" width="1731.3999999999999" height="755.4" />
+    <clipPath id="terminal-2186806534-clip-terminal">
+      <rect x="0" y="0" width="1731.3999999999999" height="804.1999999999999" />
     </clipPath>
-    <clipPath id="terminal-2002999867-line-0">
+    <clipPath id="terminal-2186806534-line-0">
     <rect x="0" y="1.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-1">
+<clipPath id="terminal-2186806534-line-1">
     <rect x="0" y="25.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-2">
+<clipPath id="terminal-2186806534-line-2">
     <rect x="0" y="50.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-3">
+<clipPath id="terminal-2186806534-line-3">
     <rect x="0" y="74.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-4">
+<clipPath id="terminal-2186806534-line-4">
     <rect x="0" y="99.1" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-5">
+<clipPath id="terminal-2186806534-line-5">
     <rect x="0" y="123.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-6">
+<clipPath id="terminal-2186806534-line-6">
     <rect x="0" y="147.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-7">
+<clipPath id="terminal-2186806534-line-7">
     <rect x="0" y="172.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-8">
+<clipPath id="terminal-2186806534-line-8">
     <rect x="0" y="196.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-9">
+<clipPath id="terminal-2186806534-line-9">
     <rect x="0" y="221.1" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-10">
+<clipPath id="terminal-2186806534-line-10">
     <rect x="0" y="245.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-11">
+<clipPath id="terminal-2186806534-line-11">
     <rect x="0" y="269.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-12">
+<clipPath id="terminal-2186806534-line-12">
     <rect x="0" y="294.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-13">
+<clipPath id="terminal-2186806534-line-13">
     <rect x="0" y="318.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-14">
+<clipPath id="terminal-2186806534-line-14">
     <rect x="0" y="343.1" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-15">
+<clipPath id="terminal-2186806534-line-15">
     <rect x="0" y="367.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-16">
+<clipPath id="terminal-2186806534-line-16">
     <rect x="0" y="391.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-17">
+<clipPath id="terminal-2186806534-line-17">
     <rect x="0" y="416.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-18">
+<clipPath id="terminal-2186806534-line-18">
     <rect x="0" y="440.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-19">
+<clipPath id="terminal-2186806534-line-19">
     <rect x="0" y="465.1" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-20">
+<clipPath id="terminal-2186806534-line-20">
     <rect x="0" y="489.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-21">
+<clipPath id="terminal-2186806534-line-21">
     <rect x="0" y="513.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-22">
+<clipPath id="terminal-2186806534-line-22">
     <rect x="0" y="538.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-23">
+<clipPath id="terminal-2186806534-line-23">
     <rect x="0" y="562.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-24">
+<clipPath id="terminal-2186806534-line-24">
     <rect x="0" y="587.1" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-25">
+<clipPath id="terminal-2186806534-line-25">
     <rect x="0" y="611.5" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-26">
+<clipPath id="terminal-2186806534-line-26">
     <rect x="0" y="635.9" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-27">
+<clipPath id="terminal-2186806534-line-27">
     <rect x="0" y="660.3" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-28">
+<clipPath id="terminal-2186806534-line-28">
     <rect x="0" y="684.7" width="1732.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-2002999867-line-29">
+<clipPath id="terminal-2186806534-line-29">
     <rect x="0" y="709.1" width="1732.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2186806534-line-30">
+    <rect x="0" y="733.5" width="1732.4" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2186806534-line-31">
+    <rect x="0" y="757.9" width="1732.4" height="24.65"/>
             </clipPath>
     </defs>
 
-    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1749" height="804.4" rx="8"/><text class="terminal-2002999867-title" fill="#c5c8c6" text-anchor="middle" x="874" y="27">k8s-validator&#160;·&#160;failing&#160;manifests</text>
+    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1749" height="853.2" rx="8"/><text class="terminal-2186806534-title" fill="#c5c8c6" text-anchor="middle" x="874" y="27">k8s-validator&#160;·&#160;failing&#160;manifests</text>
             <g transform="translate(26,22)">
             <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
         
-    <g transform="translate(9, 41)" clip-path="url(#terminal-2002999867-clip-terminal)">
+    <g transform="translate(9, 41)" clip-path="url(#terminal-2186806534-clip-terminal)">
     
-    <g class="terminal-2002999867-matrix">
-    <text class="terminal-2002999867-r1" x="0" y="20" textLength="24.4" clip-path="url(#terminal-2002999867-line-0)">$&#160;</text><text class="terminal-2002999867-r1" x="24.4" y="20" textLength="317.2" clip-path="url(#terminal-2002999867-line-0)">k8s-validator&#160;examples/bad</text><text class="terminal-2002999867-r2" x="1732.4" y="20" textLength="12.2" clip-path="url(#terminal-2002999867-line-0)">
-</text><text class="terminal-2002999867-r3" x="0" y="44.4" textLength="48.8" clip-path="url(#terminal-2002999867-line-1)">WARN</text><text class="terminal-2002999867-r4" x="73.2" y="44.4" textLength="207.4" clip-path="url(#terminal-2002999867-line-1)">StatefulSet/redis</text><text class="terminal-2002999867-r5" x="305" y="44.4" textLength="488" clip-path="url(#terminal-2002999867-line-1)">examples/bad/incomplete-statefulset.yaml</text><text class="terminal-2002999867-r2" x="1732.4" y="44.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-1)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="68.8" textLength="97.6" clip-path="url(#terminal-2002999867-line-2)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="68.8" textLength="1207.8" clip-path="url(#terminal-2002999867-line-2)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2002999867-r2" x="1732.4" y="68.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-2)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="93.2" textLength="97.6" clip-path="url(#terminal-2002999867-line-3)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="93.2" textLength="585.6" clip-path="url(#terminal-2002999867-line-3)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Missing&#160;readinessProbe</text><text class="terminal-2002999867-r2" x="1732.4" y="93.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-3)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="117.6" textLength="97.6" clip-path="url(#terminal-2002999867-line-4)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="117.6" textLength="890.6" clip-path="url(#terminal-2002999867-line-4)">&#160;replicas&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;spec.replicas&#160;is&#160;not&#160;set&#160;(defaults&#160;to&#160;1,&#160;no&#160;redundancy)</text><text class="terminal-2002999867-r2" x="1732.4" y="117.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-4)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="142" textLength="97.6" clip-path="url(#terminal-2002999867-line-5)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="142" textLength="951.6" clip-path="url(#terminal-2002999867-line-5)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Missing&#160;resource&#160;settings:&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2002999867-r2" x="1732.4" y="142" textLength="12.2" clip-path="url(#terminal-2002999867-line-5)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="166.4" textLength="97.6" clip-path="url(#terminal-2002999867-line-6)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="166.4" textLength="1159" clip-path="url(#terminal-2002999867-line-6)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Non-root&#160;not&#160;enforced;&#160;set&#160;runAsNonRoot:&#160;true&#160;or&#160;a&#160;non-zero&#160;runAsUser</text><text class="terminal-2002999867-r2" x="1732.4" y="166.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-6)">
-</text><text class="terminal-2002999867-r6" x="0" y="190.8" textLength="48.8" clip-path="url(#terminal-2002999867-line-7)">FAIL</text><text class="terminal-2002999867-r4" x="73.2" y="190.8" textLength="170.8" clip-path="url(#terminal-2002999867-line-7)">Deployment/api</text><text class="terminal-2002999867-r5" x="268.4" y="190.8" textLength="451.4" clip-path="url(#terminal-2002999867-line-7)">examples/bad/insecure-deployment.yaml</text><text class="terminal-2002999867-r2" x="1732.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-7)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="215.2" textLength="97.6" clip-path="url(#terminal-2002999867-line-8)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="215.2" textLength="1207.8" clip-path="url(#terminal-2002999867-line-8)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Image&#160;&#x27;mycompany/api:latest&#x27;&#160;uses&#160;the&#160;&#x27;latest&#x27;&#160;tag;&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2002999867-r2" x="1732.4" y="215.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-8)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="239.6" textLength="97.6" clip-path="url(#terminal-2002999867-line-9)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="239.6" textLength="1195.6" clip-path="url(#terminal-2002999867-line-9)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Image&#160;&#x27;busybox&#x27;&#160;has&#160;no&#160;tag&#160;(implicit&#160;:latest);&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2002999867-r2" x="1732.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-9)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="264" textLength="97.6" clip-path="url(#terminal-2002999867-line-10)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="264" textLength="695.4" clip-path="url(#terminal-2002999867-line-10)">&#160;privileged&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Container&#160;runs&#160;in&#160;privileged&#160;mode</text><text class="terminal-2002999867-r2" x="1732.4" y="264" textLength="12.2" clip-path="url(#terminal-2002999867-line-10)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="288.4" textLength="97.6" clip-path="url(#terminal-2002999867-line-11)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="288.4" textLength="744.2" clip-path="url(#terminal-2002999867-line-11)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2002999867-r2" x="1732.4" y="288.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-11)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="312.8" textLength="97.6" clip-path="url(#terminal-2002999867-line-12)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="312.8" textLength="1500.6" clip-path="url(#terminal-2002999867-line-12)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/name,&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2002999867-r2" x="1732.4" y="312.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-12)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="337.2" textLength="97.6" clip-path="url(#terminal-2002999867-line-13)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="337.2" textLength="780.8" clip-path="url(#terminal-2002999867-line-13)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Missing&#160;readinessProbe&#160;and&#160;livenessProbe</text><text class="terminal-2002999867-r2" x="1732.4" y="337.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-13)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="361.6" textLength="97.6" clip-path="url(#terminal-2002999867-line-14)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="361.6" textLength="829.6" clip-path="url(#terminal-2002999867-line-14)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Missing&#160;readinessProbe&#160;and&#160;livenessProbe</text><text class="terminal-2002999867-r2" x="1732.4" y="361.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-14)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="386" textLength="97.6" clip-path="url(#terminal-2002999867-line-15)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="386" textLength="890.6" clip-path="url(#terminal-2002999867-line-15)">&#160;replicas&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;spec.replicas&#160;is&#160;not&#160;set&#160;(defaults&#160;to&#160;1,&#160;no&#160;redundancy)</text><text class="terminal-2002999867-r2" x="1732.4" y="386" textLength="12.2" clip-path="url(#terminal-2002999867-line-15)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="410.4" textLength="97.6" clip-path="url(#terminal-2002999867-line-16)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="410.4" textLength="1305.4" clip-path="url(#terminal-2002999867-line-16)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Missing&#160;resource&#160;settings:&#160;requests.cpu,&#160;requests.memory,&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2002999867-r2" x="1732.4" y="410.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-16)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="434.8" textLength="97.6" clip-path="url(#terminal-2002999867-line-17)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="434.8" textLength="1354.2" clip-path="url(#terminal-2002999867-line-17)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Missing&#160;resource&#160;settings:&#160;requests.cpu,&#160;requests.memory,&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2002999867-r2" x="1732.4" y="434.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-17)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="459.2" textLength="97.6" clip-path="url(#terminal-2002999867-line-18)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="459.2" textLength="1183.4" clip-path="url(#terminal-2002999867-line-18)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Non-root&#160;not&#160;enforced;&#160;set&#160;runAsNonRoot:&#160;true&#160;or&#160;a&#160;non-zero&#160;runAsUser</text><text class="terminal-2002999867-r2" x="1732.4" y="459.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-18)">
-</text><text class="terminal-2002999867-r3" x="0" y="483.6" textLength="48.8" clip-path="url(#terminal-2002999867-line-19)">WARN</text><text class="terminal-2002999867-r4" x="73.2" y="483.6" textLength="134.2" clip-path="url(#terminal-2002999867-line-19)">Service/api</text><text class="terminal-2002999867-r5" x="231.8" y="483.6" textLength="451.4" clip-path="url(#terminal-2002999867-line-19)">examples/bad/insecure-deployment.yaml</text><text class="terminal-2002999867-r2" x="1732.4" y="483.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-19)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="508" textLength="97.6" clip-path="url(#terminal-2002999867-line-20)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="508" textLength="1500.6" clip-path="url(#terminal-2002999867-line-20)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/name,&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2002999867-r2" x="1732.4" y="508" textLength="12.2" clip-path="url(#terminal-2002999867-line-20)">
-</text><text class="terminal-2002999867-r3" x="73.2" y="532.4" textLength="97.6" clip-path="url(#terminal-2002999867-line-21)">WARNING&#160;</text><text class="terminal-2002999867-r2" x="170.8" y="532.4" textLength="878.4" clip-path="url(#terminal-2002999867-line-21)">&#160;service-selector&#160;Service&#160;has&#160;no&#160;selector&#160;and&#160;will&#160;not&#160;route&#160;to&#160;any&#160;pods</text><text class="terminal-2002999867-r2" x="1732.4" y="532.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-21)">
-</text><text class="terminal-2002999867-r6" x="0" y="556.8" textLength="48.8" clip-path="url(#terminal-2002999867-line-22)">FAIL</text><text class="terminal-2002999867-r4" x="73.2" y="556.8" textLength="280.6" clip-path="url(#terminal-2002999867-line-22)">DaemonSet/node-exporter</text><text class="terminal-2002999867-r5" x="378.2" y="556.8" textLength="500.2" clip-path="url(#terminal-2002999867-line-22)">examples/bad/node-exporter-daemonset.yaml</text><text class="terminal-2002999867-r2" x="1732.4" y="556.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-22)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="581.2" textLength="97.6" clip-path="url(#terminal-2002999867-line-23)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="581.2" textLength="1159" clip-path="url(#terminal-2002999867-line-23)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[setup]&#160;Image&#160;&#x27;alpine&#x27;&#160;has&#160;no&#160;tag&#160;(implicit&#160;:latest);&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2002999867-r2" x="1732.4" y="581.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-23)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="605.6" textLength="97.6" clip-path="url(#terminal-2002999867-line-24)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="605.6" textLength="768.6" clip-path="url(#terminal-2002999867-line-24)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[setup]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2002999867-r2" x="1732.4" y="605.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-24)">
-</text><text class="terminal-2002999867-r6" x="73.2" y="630" textLength="97.6" clip-path="url(#terminal-2002999867-line-25)">CRITICAL</text><text class="terminal-2002999867-r2" x="170.8" y="630" textLength="866.2" clip-path="url(#terminal-2002999867-line-25)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[node-exporter]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2002999867-r2" x="1732.4" y="630" textLength="12.2" clip-path="url(#terminal-2002999867-line-25)">
-</text><text class="terminal-2002999867-r2" x="1732.4" y="654.4" textLength="12.2" clip-path="url(#terminal-2002999867-line-26)">
-</text><text class="terminal-2002999867-r2" x="0" y="678.8" textLength="878.4" clip-path="url(#terminal-2002999867-line-27)">------------------------------------------------------------------------</text><text class="terminal-2002999867-r2" x="1732.4" y="678.8" textLength="12.2" clip-path="url(#terminal-2002999867-line-27)">
-</text><text class="terminal-2002999867-r2" x="0" y="703.2" textLength="280.6" clip-path="url(#terminal-2002999867-line-28)">Scanned&#160;4&#160;resource(s):&#160;</text><text class="terminal-2002999867-r6" x="280.6" y="703.2" textLength="122" clip-path="url(#terminal-2002999867-line-28)">7&#160;critical</text><text class="terminal-2002999867-r2" x="402.6" y="703.2" textLength="24.4" clip-path="url(#terminal-2002999867-line-28)">,&#160;</text><text class="terminal-2002999867-r3" x="427" y="703.2" textLength="158.6" clip-path="url(#terminal-2002999867-line-28)">14&#160;warning(s)</text><text class="terminal-2002999867-r2" x="1732.4" y="703.2" textLength="12.2" clip-path="url(#terminal-2002999867-line-28)">
-</text><text class="terminal-2002999867-r1" x="0" y="727.6" textLength="24.4" clip-path="url(#terminal-2002999867-line-29)">$&#160;</text><text class="terminal-2002999867-r1" x="24.4" y="727.6" textLength="85.4" clip-path="url(#terminal-2002999867-line-29)">echo&#160;$?</text><text class="terminal-2002999867-r2" x="1732.4" y="727.6" textLength="12.2" clip-path="url(#terminal-2002999867-line-29)">
-</text><text class="terminal-2002999867-r2" x="0" y="752" textLength="12.2" clip-path="url(#terminal-2002999867-line-30)">1</text><text class="terminal-2002999867-r2" x="1732.4" y="752" textLength="12.2" clip-path="url(#terminal-2002999867-line-30)">
+    <g class="terminal-2186806534-matrix">
+    <text class="terminal-2186806534-r1" x="0" y="20" textLength="24.4" clip-path="url(#terminal-2186806534-line-0)">$&#160;</text><text class="terminal-2186806534-r1" x="24.4" y="20" textLength="317.2" clip-path="url(#terminal-2186806534-line-0)">k8s-validator&#160;examples/bad</text><text class="terminal-2186806534-r2" x="1732.4" y="20" textLength="12.2" clip-path="url(#terminal-2186806534-line-0)">
+</text><text class="terminal-2186806534-r3" x="0" y="44.4" textLength="48.8" clip-path="url(#terminal-2186806534-line-1)">WARN</text><text class="terminal-2186806534-r4" x="73.2" y="44.4" textLength="207.4" clip-path="url(#terminal-2186806534-line-1)">StatefulSet/redis</text><text class="terminal-2186806534-r5" x="305" y="44.4" textLength="488" clip-path="url(#terminal-2186806534-line-1)">examples/bad/incomplete-statefulset.yaml</text><text class="terminal-2186806534-r2" x="1732.4" y="44.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-1)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="68.8" textLength="97.6" clip-path="url(#terminal-2186806534-line-2)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="68.8" textLength="1207.8" clip-path="url(#terminal-2186806534-line-2)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2186806534-r2" x="1732.4" y="68.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-2)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="93.2" textLength="97.6" clip-path="url(#terminal-2186806534-line-3)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="93.2" textLength="585.6" clip-path="url(#terminal-2186806534-line-3)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Missing&#160;readinessProbe</text><text class="terminal-2186806534-r2" x="1732.4" y="93.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-3)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="117.6" textLength="97.6" clip-path="url(#terminal-2186806534-line-4)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="117.6" textLength="890.6" clip-path="url(#terminal-2186806534-line-4)">&#160;replicas&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;spec.replicas&#160;is&#160;not&#160;set&#160;(defaults&#160;to&#160;1,&#160;no&#160;redundancy)</text><text class="terminal-2186806534-r2" x="1732.4" y="117.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-4)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="142" textLength="97.6" clip-path="url(#terminal-2186806534-line-5)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="142" textLength="951.6" clip-path="url(#terminal-2186806534-line-5)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Missing&#160;resource&#160;settings:&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2186806534-r2" x="1732.4" y="142" textLength="12.2" clip-path="url(#terminal-2186806534-line-5)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="166.4" textLength="97.6" clip-path="url(#terminal-2186806534-line-6)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="166.4" textLength="1159" clip-path="url(#terminal-2186806534-line-6)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[redis]&#160;Non-root&#160;not&#160;enforced;&#160;set&#160;runAsNonRoot:&#160;true&#160;or&#160;a&#160;non-zero&#160;runAsUser</text><text class="terminal-2186806534-r2" x="1732.4" y="166.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-6)">
+</text><text class="terminal-2186806534-r6" x="0" y="190.8" textLength="48.8" clip-path="url(#terminal-2186806534-line-7)">FAIL</text><text class="terminal-2186806534-r4" x="73.2" y="190.8" textLength="170.8" clip-path="url(#terminal-2186806534-line-7)">Deployment/api</text><text class="terminal-2186806534-r5" x="268.4" y="190.8" textLength="451.4" clip-path="url(#terminal-2186806534-line-7)">examples/bad/insecure-deployment.yaml</text><text class="terminal-2186806534-r2" x="1732.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-7)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="215.2" textLength="97.6" clip-path="url(#terminal-2186806534-line-8)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="215.2" textLength="1207.8" clip-path="url(#terminal-2186806534-line-8)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Image&#160;&#x27;mycompany/api:latest&#x27;&#160;uses&#160;the&#160;&#x27;latest&#x27;&#160;tag;&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2186806534-r2" x="1732.4" y="215.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-8)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="239.6" textLength="97.6" clip-path="url(#terminal-2186806534-line-9)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="239.6" textLength="1195.6" clip-path="url(#terminal-2186806534-line-9)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Image&#160;&#x27;busybox&#x27;&#160;has&#160;no&#160;tag&#160;(implicit&#160;:latest);&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2186806534-r2" x="1732.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-9)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="264" textLength="97.6" clip-path="url(#terminal-2186806534-line-10)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="264" textLength="695.4" clip-path="url(#terminal-2186806534-line-10)">&#160;privileged&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Container&#160;runs&#160;in&#160;privileged&#160;mode</text><text class="terminal-2186806534-r2" x="1732.4" y="264" textLength="12.2" clip-path="url(#terminal-2186806534-line-10)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="288.4" textLength="97.6" clip-path="url(#terminal-2186806534-line-11)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="288.4" textLength="744.2" clip-path="url(#terminal-2186806534-line-11)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2186806534-r2" x="1732.4" y="288.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-11)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="312.8" textLength="97.6" clip-path="url(#terminal-2186806534-line-12)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="312.8" textLength="1500.6" clip-path="url(#terminal-2186806534-line-12)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/name,&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2186806534-r2" x="1732.4" y="312.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-12)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="337.2" textLength="97.6" clip-path="url(#terminal-2186806534-line-13)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="337.2" textLength="780.8" clip-path="url(#terminal-2186806534-line-13)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Missing&#160;readinessProbe&#160;and&#160;livenessProbe</text><text class="terminal-2186806534-r2" x="1732.4" y="337.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-13)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="361.6" textLength="97.6" clip-path="url(#terminal-2186806534-line-14)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="361.6" textLength="829.6" clip-path="url(#terminal-2186806534-line-14)">&#160;probes&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Missing&#160;readinessProbe&#160;and&#160;livenessProbe</text><text class="terminal-2186806534-r2" x="1732.4" y="361.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-14)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="386" textLength="97.6" clip-path="url(#terminal-2186806534-line-15)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="386" textLength="890.6" clip-path="url(#terminal-2186806534-line-15)">&#160;replicas&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;spec.replicas&#160;is&#160;not&#160;set&#160;(defaults&#160;to&#160;1,&#160;no&#160;redundancy)</text><text class="terminal-2186806534-r2" x="1732.4" y="386" textLength="12.2" clip-path="url(#terminal-2186806534-line-15)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="410.4" textLength="97.6" clip-path="url(#terminal-2186806534-line-16)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="410.4" textLength="1305.4" clip-path="url(#terminal-2186806534-line-16)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[api]&#160;Missing&#160;resource&#160;settings:&#160;requests.cpu,&#160;requests.memory,&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2186806534-r2" x="1732.4" y="410.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-16)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="434.8" textLength="97.6" clip-path="url(#terminal-2186806534-line-17)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="434.8" textLength="1354.2" clip-path="url(#terminal-2186806534-line-17)">&#160;resources&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Missing&#160;resource&#160;settings:&#160;requests.cpu,&#160;requests.memory,&#160;limits.cpu,&#160;limits.memory</text><text class="terminal-2186806534-r2" x="1732.4" y="434.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-17)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="459.2" textLength="97.6" clip-path="url(#terminal-2186806534-line-18)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="459.2" textLength="1183.4" clip-path="url(#terminal-2186806534-line-18)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[sidecar]&#160;Non-root&#160;not&#160;enforced;&#160;set&#160;runAsNonRoot:&#160;true&#160;or&#160;a&#160;non-zero&#160;runAsUser</text><text class="terminal-2186806534-r2" x="1732.4" y="459.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-18)">
+</text><text class="terminal-2186806534-r3" x="0" y="483.6" textLength="48.8" clip-path="url(#terminal-2186806534-line-19)">WARN</text><text class="terminal-2186806534-r4" x="73.2" y="483.6" textLength="134.2" clip-path="url(#terminal-2186806534-line-19)">Service/api</text><text class="terminal-2186806534-r5" x="231.8" y="483.6" textLength="451.4" clip-path="url(#terminal-2186806534-line-19)">examples/bad/insecure-deployment.yaml</text><text class="terminal-2186806534-r2" x="1732.4" y="483.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-19)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="508" textLength="97.6" clip-path="url(#terminal-2186806534-line-20)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="508" textLength="1500.6" clip-path="url(#terminal-2186806534-line-20)">&#160;labels&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Missing&#160;recommended&#160;labels:&#160;app.kubernetes.io/name,&#160;app.kubernetes.io/instance,&#160;app.kubernetes.io/version</text><text class="terminal-2186806534-r2" x="1732.4" y="508" textLength="12.2" clip-path="url(#terminal-2186806534-line-20)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="532.4" textLength="97.6" clip-path="url(#terminal-2186806534-line-21)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="532.4" textLength="878.4" clip-path="url(#terminal-2186806534-line-21)">&#160;service-selector&#160;Service&#160;has&#160;no&#160;selector&#160;and&#160;will&#160;not&#160;route&#160;to&#160;any&#160;pods</text><text class="terminal-2186806534-r2" x="1732.4" y="532.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-21)">
+</text><text class="terminal-2186806534-r6" x="0" y="556.8" textLength="48.8" clip-path="url(#terminal-2186806534-line-22)">FAIL</text><text class="terminal-2186806534-r4" x="73.2" y="556.8" textLength="280.6" clip-path="url(#terminal-2186806534-line-22)">DaemonSet/node-exporter</text><text class="terminal-2186806534-r5" x="378.2" y="556.8" textLength="500.2" clip-path="url(#terminal-2186806534-line-22)">examples/bad/node-exporter-daemonset.yaml</text><text class="terminal-2186806534-r2" x="1732.4" y="556.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-22)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="581.2" textLength="97.6" clip-path="url(#terminal-2186806534-line-23)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="581.2" textLength="1159" clip-path="url(#terminal-2186806534-line-23)">&#160;image-tag&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[setup]&#160;Image&#160;&#x27;alpine&#x27;&#160;has&#160;no&#160;tag&#160;(implicit&#160;:latest);&#160;pin&#160;a&#160;version&#160;or&#160;digest</text><text class="terminal-2186806534-r2" x="1732.4" y="581.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-23)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="605.6" textLength="97.6" clip-path="url(#terminal-2186806534-line-24)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="605.6" textLength="768.6" clip-path="url(#terminal-2186806534-line-24)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[setup]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2186806534-r2" x="1732.4" y="605.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-24)">
+</text><text class="terminal-2186806534-r6" x="73.2" y="630" textLength="97.6" clip-path="url(#terminal-2186806534-line-25)">CRITICAL</text><text class="terminal-2186806534-r2" x="170.8" y="630" textLength="866.2" clip-path="url(#terminal-2186806534-line-25)">&#160;run-as-root&#160;&#160;&#160;&#160;&#160;&#160;[node-exporter]&#160;Container&#160;runs&#160;as&#160;root&#160;(runAsUser:&#160;0)</text><text class="terminal-2186806534-r2" x="1732.4" y="630" textLength="12.2" clip-path="url(#terminal-2186806534-line-25)">
+</text><text class="terminal-2186806534-r3" x="0" y="654.4" textLength="48.8" clip-path="url(#terminal-2186806534-line-26)">WARN</text><text class="terminal-2186806534-r4" x="73.2" y="654.4" textLength="268.4" clip-path="url(#terminal-2186806534-line-26)">Deployment/static-site</text><text class="terminal-2186806534-r5" x="366" y="654.4" textLength="512.4" clip-path="url(#terminal-2186806534-line-26)">examples/bad/readonly-root-deployment.yaml</text><text class="terminal-2186806534-r2" x="1732.4" y="654.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-26)">
+</text><text class="terminal-2186806534-r3" x="73.2" y="678.8" textLength="97.6" clip-path="url(#terminal-2186806534-line-27)">WARNING&#160;</text><text class="terminal-2186806534-r2" x="170.8" y="678.8" textLength="1415.2" clip-path="url(#terminal-2186806534-line-27)">&#160;writable-volume&#160;&#160;[nginx]&#160;readOnlyRootFilesystem&#160;is&#160;set&#160;but&#160;no&#160;writable&#160;volume&#160;is&#160;mounted&#160;(e.g.&#160;an&#160;emptyDir&#160;at&#160;/tmp)</text><text class="terminal-2186806534-r2" x="1732.4" y="678.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-27)">
+</text><text class="terminal-2186806534-r2" x="1732.4" y="703.2" textLength="12.2" clip-path="url(#terminal-2186806534-line-28)">
+</text><text class="terminal-2186806534-r2" x="0" y="727.6" textLength="878.4" clip-path="url(#terminal-2186806534-line-29)">------------------------------------------------------------------------</text><text class="terminal-2186806534-r2" x="1732.4" y="727.6" textLength="12.2" clip-path="url(#terminal-2186806534-line-29)">
+</text><text class="terminal-2186806534-r2" x="0" y="752" textLength="280.6" clip-path="url(#terminal-2186806534-line-30)">Scanned&#160;5&#160;resource(s):&#160;</text><text class="terminal-2186806534-r6" x="280.6" y="752" textLength="122" clip-path="url(#terminal-2186806534-line-30)">7&#160;critical</text><text class="terminal-2186806534-r2" x="402.6" y="752" textLength="24.4" clip-path="url(#terminal-2186806534-line-30)">,&#160;</text><text class="terminal-2186806534-r3" x="427" y="752" textLength="158.6" clip-path="url(#terminal-2186806534-line-30)">15&#160;warning(s)</text><text class="terminal-2186806534-r2" x="1732.4" y="752" textLength="12.2" clip-path="url(#terminal-2186806534-line-30)">
+</text><text class="terminal-2186806534-r1" x="0" y="776.4" textLength="24.4" clip-path="url(#terminal-2186806534-line-31)">$&#160;</text><text class="terminal-2186806534-r1" x="24.4" y="776.4" textLength="85.4" clip-path="url(#terminal-2186806534-line-31)">echo&#160;$?</text><text class="terminal-2186806534-r2" x="1732.4" y="776.4" textLength="12.2" clip-path="url(#terminal-2186806534-line-31)">
+</text><text class="terminal-2186806534-r2" x="0" y="800.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-32)">1</text><text class="terminal-2186806534-r2" x="1732.4" y="800.8" textLength="12.2" clip-path="url(#terminal-2186806534-line-32)">
 </text>
     </g>
     </g>

@@ -13,7 +13,7 @@ def test_good_examples_pass_strict(examples_dir, capsys):
 def test_bad_examples_fail(examples_dir, capsys):
     assert main([str(examples_dir / "bad"), "--no-color"]) == EXIT_FAILED
     out = capsys.readouterr().out
-    for rule in ("image-tag", "privileged", "run-as-root", "resources", "probes", "replicas", "labels"):
+    for rule in ("image-tag", "privileged", "run-as-root", "resources", "probes", "replicas", "labels", "writable-volume"):
         assert rule in out
 
 

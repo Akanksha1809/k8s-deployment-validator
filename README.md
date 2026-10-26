@@ -148,21 +148,22 @@ The screenshots below are rendered from real runs of the commands shown, against
 
 ### 1. Failing manifests
 
-[`examples/bad/`](examples/bad/) contains three files that break the rules on purpose:
+[`examples/bad/`](examples/bad/) contains four files that break the rules on purpose:
 
 | File | Resources | What is wrong |
 |---|---|---|
 | [`insecure-deployment.yaml`](examples/bad/insecure-deployment.yaml) | Deployment + Service | `:latest` image, untagged sidecar image, privileged container, `runAsUser: 0`, no resources, no probes, no replicas, no recommended labels; the Service has no selector |
 | [`incomplete-statefulset.yaml`](examples/bad/incomplete-statefulset.yaml) | StatefulSet | Requests but no limits, only a liveness probe, no replicas, partial labels, non-root not enforced |
 | [`node-exporter-daemonset.yaml`](examples/bad/node-exporter-daemonset.yaml) | DaemonSet | `runAsUser: 0` at pod level (inherited by every container) and an untagged init-container image |
+| [`readonly-root-deployment.yaml`](examples/bad/readonly-root-deployment.yaml) | Deployment | Compliant except for one trap: `readOnlyRootFilesystem: true` with only a read-only ConfigMap mounted, so nginx has nowhere to write and would crash at startup |
 
 ```bash
 k8s-validator examples/bad
 ```
 
-![Failing run: 7 critical issues and 14 warnings, exit code 1](docs/images/demo-bad.svg)
+![Failing run: 7 critical issues and 15 warnings, exit code 1](docs/images/demo-bad.svg)
 
-Each resource gets a status line (`PASS`, `WARN` or `FAIL`) followed by its findings, critical first. The bracketed name is the container the finding belongs to. The summary shows **7 critical, 14 warnings**, and the exit code is `1`.
+Each resource gets a status line (`PASS`, `WARN` or `FAIL`) followed by its findings, critical first. The bracketed name is the container the finding belongs to. The summary shows **7 critical, 15 warnings**, and the exit code is `1`. `Deployment/static-site` shows that a single runtime trap is caught even when everything else is correct.
 
 ### 2. Passing manifests
 
@@ -187,9 +188,9 @@ k8s-validator examples/bad -o json
 ```json
 {
   "summary": {
-    "resources": 4,
+    "resources": 5,
     "critical": 7,
-    "warnings": 14
+    "warnings": 15
   },
   "findings": [
     {
@@ -206,7 +207,7 @@ k8s-validator examples/bad -o json
 }
 ```
 
-*(The real output lists all 21 findings; one is shown here.)* `container` is `null` for findings about the whole resource, such as `labels` or `replicas`. Findings are listed resource by resource in rule order; the text report is the one that sorts critical issues first.
+*(The real output lists all 22 findings; one is shown here.)* `container` is `null` for findings about the whole resource, such as `labels` or `replicas`. Findings are listed resource by resource in rule order; the text report is the one that sorts critical issues first.
 
 Combined with `jq`, it gives you a compact list of critical issues, one per line:
 
@@ -346,7 +347,7 @@ The suite has **39 tests**:
 |---|---|---|
 | `test_checks.py` | 29 | Every rule, both when it should fire and when it should not; image reference parsing (untagged, `latest`, registry ports, digests); init-container coverage; container-over-pod security-context precedence; writable-volume detection; kind scoping (no `replicas` check for DaemonSets, no selector check for `ExternalName` Services) |
 | `test_loader.py` | 5 | Multi-document files, unsupported kinds skipped, `kind: List` flattening, recursive discovery that ignores non-YAML files, invalid YAML and missing paths |
-| `test_cli.py` | 5 | End-to-end runs: `examples/good` passes with `--strict`, `examples/bad` exits `1` and reports image-tag, privileged, run-as-root, resources, probes, replicas and labels findings, warnings-only input exits `0` (or `1` with `--strict`), JSON structure, exit code `2` for a missing path |
+| `test_cli.py` | 5 | End-to-end runs: `examples/good` passes with `--strict`, `examples/bad` exits `1` and reports image-tag, privileged, run-as-root, resources, probes, replicas, labels and writable-volume findings, warnings-only input exits `0` (or `1` with `--strict`), JSON structure, exit code `2` for a missing path |
 
 Rule tests start from one fully compliant Deployment fixture and change a single field, so each test isolates exactly one behaviour.
 
