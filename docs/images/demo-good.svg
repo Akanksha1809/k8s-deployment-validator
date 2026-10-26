@@ -1,0 +1,104 @@
+<svg class="rich-terminal" viewBox="0 0 1238 318.4" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generated with Rich https://www.textualize.io -->
+    <style>
+
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Regular"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Regular.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Regular.woff") format("woff");
+        font-style: normal;
+        font-weight: 400;
+    }
+    @font-face {
+        font-family: "Fira Code";
+        src: local("FiraCode-Bold"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff2/FiraCode-Bold.woff2") format("woff2"),
+                url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/woff/FiraCode-Bold.woff") format("woff");
+        font-style: bold;
+        font-weight: 700;
+    }
+
+    .terminal-2240321082-matrix {
+        font-family: Fira Code, monospace;
+        font-size: 20px;
+        line-height: 24.4px;
+        font-variant-east-asian: full-width;
+    }
+
+    .terminal-2240321082-title {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: arial;
+    }
+
+    .terminal-2240321082-r1 { fill: #98a84b;font-weight: bold }
+.terminal-2240321082-r2 { fill: #c5c8c6 }
+.terminal-2240321082-r3 { fill: #98a84b }
+.terminal-2240321082-r4 { fill: #c5c8c6;font-weight: bold }
+.terminal-2240321082-r5 { fill: #868887 }
+.terminal-2240321082-r6 { fill: #cc555a;font-weight: bold }
+.terminal-2240321082-r7 { fill: #d0b344 }
+    </style>
+
+    <defs>
+    <clipPath id="terminal-2240321082-clip-terminal">
+      <rect x="0" y="0" width="1219.0" height="267.4" />
+    </clipPath>
+    <clipPath id="terminal-2240321082-line-0">
+    <rect x="0" y="1.5" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-1">
+    <rect x="0" y="25.9" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-2">
+    <rect x="0" y="50.3" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-3">
+    <rect x="0" y="74.7" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-4">
+    <rect x="0" y="99.1" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-5">
+    <rect x="0" y="123.5" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-6">
+    <rect x="0" y="147.9" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-7">
+    <rect x="0" y="172.3" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-8">
+    <rect x="0" y="196.7" width="1220" height="24.65"/>
+            </clipPath>
+<clipPath id="terminal-2240321082-line-9">
+    <rect x="0" y="221.1" width="1220" height="24.65"/>
+            </clipPath>
+    </defs>
+
+    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1236" height="316.4" rx="8"/><text class="terminal-2240321082-title" fill="#c5c8c6" text-anchor="middle" x="618" y="27">k8s-validator&#160;·&#160;passing&#160;manifests</text>
+            <g transform="translate(26,22)">
+            <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
+            <circle cx="22" cy="0" r="7" fill="#febc2e"/>
+            <circle cx="44" cy="0" r="7" fill="#28c840"/>
+            </g>
+        
+    <g transform="translate(9, 41)" clip-path="url(#terminal-2240321082-clip-terminal)">
+    
+    <g class="terminal-2240321082-matrix">
+    <text class="terminal-2240321082-r1" x="0" y="20" textLength="24.4" clip-path="url(#terminal-2240321082-line-0)">$&#160;</text><text class="terminal-2240321082-r1" x="24.4" y="20" textLength="439.2" clip-path="url(#terminal-2240321082-line-0)">k8s-validator&#160;examples/good&#160;--strict</text><text class="terminal-2240321082-r2" x="1220" y="20" textLength="12.2" clip-path="url(#terminal-2240321082-line-0)">
+</text><text class="terminal-2240321082-r3" x="0" y="44.4" textLength="48.8" clip-path="url(#terminal-2240321082-line-1)">PASS</text><text class="terminal-2240321082-r4" x="73.2" y="44.4" textLength="231.8" clip-path="url(#terminal-2240321082-line-1)">DaemonSet/log-agent</text><text class="terminal-2240321082-r5" x="329.4" y="44.4" textLength="463.6" clip-path="url(#terminal-2240321082-line-1)">examples/good/log-agent-daemonset.yaml</text><text class="terminal-2240321082-r2" x="1220" y="44.4" textLength="12.2" clip-path="url(#terminal-2240321082-line-1)">
+</text><text class="terminal-2240321082-r3" x="0" y="68.8" textLength="48.8" clip-path="url(#terminal-2240321082-line-2)">PASS</text><text class="terminal-2240321082-r4" x="73.2" y="68.8" textLength="195.2" clip-path="url(#terminal-2240321082-line-2)">Deployment/nginx</text><text class="terminal-2240321082-r5" x="292.8" y="68.8" textLength="292.8" clip-path="url(#terminal-2240321082-line-2)">examples/good/nginx.yaml</text><text class="terminal-2240321082-r2" x="1220" y="68.8" textLength="12.2" clip-path="url(#terminal-2240321082-line-2)">
+</text><text class="terminal-2240321082-r3" x="0" y="93.2" textLength="48.8" clip-path="url(#terminal-2240321082-line-3)">PASS</text><text class="terminal-2240321082-r4" x="73.2" y="93.2" textLength="244" clip-path="url(#terminal-2240321082-line-3)">StatefulSet/postgres</text><text class="terminal-2240321082-r5" x="341.6" y="93.2" textLength="475.8" clip-path="url(#terminal-2240321082-line-3)">examples/good/postgres-statefulset.yaml</text><text class="terminal-2240321082-r2" x="1220" y="93.2" textLength="12.2" clip-path="url(#terminal-2240321082-line-3)">
+</text><text class="terminal-2240321082-r3" x="0" y="117.6" textLength="48.8" clip-path="url(#terminal-2240321082-line-4)">PASS</text><text class="terminal-2240321082-r4" x="73.2" y="117.6" textLength="170.8" clip-path="url(#terminal-2240321082-line-4)">Deployment/web</text><text class="terminal-2240321082-r5" x="268.4" y="117.6" textLength="402.6" clip-path="url(#terminal-2240321082-line-4)">examples/good/web-deployment.yaml</text><text class="terminal-2240321082-r2" x="1220" y="117.6" textLength="12.2" clip-path="url(#terminal-2240321082-line-4)">
+</text><text class="terminal-2240321082-r3" x="0" y="142" textLength="48.8" clip-path="url(#terminal-2240321082-line-5)">PASS</text><text class="terminal-2240321082-r4" x="73.2" y="142" textLength="134.2" clip-path="url(#terminal-2240321082-line-5)">Service/web</text><text class="terminal-2240321082-r5" x="231.8" y="142" textLength="402.6" clip-path="url(#terminal-2240321082-line-5)">examples/good/web-deployment.yaml</text><text class="terminal-2240321082-r2" x="1220" y="142" textLength="12.2" clip-path="url(#terminal-2240321082-line-5)">
+</text><text class="terminal-2240321082-r2" x="1220" y="166.4" textLength="12.2" clip-path="url(#terminal-2240321082-line-6)">
+</text><text class="terminal-2240321082-r2" x="0" y="190.8" textLength="878.4" clip-path="url(#terminal-2240321082-line-7)">------------------------------------------------------------------------</text><text class="terminal-2240321082-r2" x="1220" y="190.8" textLength="12.2" clip-path="url(#terminal-2240321082-line-7)">
+</text><text class="terminal-2240321082-r2" x="0" y="215.2" textLength="280.6" clip-path="url(#terminal-2240321082-line-8)">Scanned&#160;5&#160;resource(s):&#160;</text><text class="terminal-2240321082-r6" x="280.6" y="215.2" textLength="122" clip-path="url(#terminal-2240321082-line-8)">0&#160;critical</text><text class="terminal-2240321082-r2" x="402.6" y="215.2" textLength="24.4" clip-path="url(#terminal-2240321082-line-8)">,&#160;</text><text class="terminal-2240321082-r7" x="427" y="215.2" textLength="146.4" clip-path="url(#terminal-2240321082-line-8)">0&#160;warning(s)</text><text class="terminal-2240321082-r2" x="1220" y="215.2" textLength="12.2" clip-path="url(#terminal-2240321082-line-8)">
+</text><text class="terminal-2240321082-r1" x="0" y="239.6" textLength="24.4" clip-path="url(#terminal-2240321082-line-9)">$&#160;</text><text class="terminal-2240321082-r1" x="24.4" y="239.6" textLength="85.4" clip-path="url(#terminal-2240321082-line-9)">echo&#160;$?</text><text class="terminal-2240321082-r2" x="1220" y="239.6" textLength="12.2" clip-path="url(#terminal-2240321082-line-9)">
+</text><text class="terminal-2240321082-r2" x="0" y="264" textLength="12.2" clip-path="url(#terminal-2240321082-line-10)">0</text><text class="terminal-2240321082-r2" x="1220" y="264" textLength="12.2" clip-path="url(#terminal-2240321082-line-10)">
+</text>
+    </g>
+    </g>
+</svg>
